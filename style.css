@@ -1,0 +1,87 @@
+.primary_color {
+    background-color: #ffd700 ;
+}
+.secondary_color {
+  color:blueviolet;
+}
+
+.link_color {
+  color:black;
+  text-decoration: none;
+}
+.footer_color{
+  color:black;
+  text-decoration: underline;
+}
+
+.logo_font {
+    font-family: Impact;
+    font-size: 50px;
+}
+.main_font {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.star-background {
+    background-image: url(/images/home_page/star.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 500px; 
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3)!important;
+  }
+
+  .dropdown-submenu {
+    position: relative;
+  }
+
+  .dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+  }
+
+  .scrolling-wrapper {
+    overflow-x: scroll;
+    white-space: nowrap;
+    text-align: center;
+    
+  }
+  .scrolling-item {
+    display: inline-block;
+    width: 270px;
+    height: 200px;
+    white-space: normal;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+
+  .cus-overlapping-pic {
+    max-width: 500px;
+    position: relative;
+    padding: 10px
+}
+
+.top-pick {
+  
+  border:5px gold solid;
+  background-color: #ffd700;
+}
+
+.image-size {
+  width: 260px;
+  height:150px
+}
+
+body {
+  min-height: 100vh;
+  display:flex;
+  flex-direction:column;
+
+}
+
+.main { 
+  flex:1;
+}
